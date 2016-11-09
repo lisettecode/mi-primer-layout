@@ -1,0 +1,87 @@
+.body {
+	margin-top: 40px;
+}
+.container {
+	box-sizing: border-box;
+	max-width: 1000px;
+	border:1px solid black;
+	margin: auto;
+	position: relative;
+}
+
+.img-enl {
+	display: block;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.sect {
+	position: relative;
+	left: 10px;
+	margin-bottom: 40px;
+}
+
+.info-pers {
+	margin-left: 10%;
+	margin-top: 30px;
+	display: block;
+	text-align: center;
+	width: 800px;
+	font-size: 19px;
+}
+.nom-ap {
+	font-size: 30px;
+}
+.habil{
+	position: relative;
+	left: 40px;
+}
+.cursos {
+	height: 40px;
+	background-color: gray;
+	color: white;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-bottom: 35px;
+	margin-left: 30px;
+}
+.html {
+	width: 70%;
+}
+.css {
+	width: 40%;
+}
+.js {
+	width: 15%;
+}
+.box {
+	margin: 15px;
+	margin-bottom: 40px;
+}
+.divs {
+	position: relative;
+	display: inline-block;
+	margin-left: 15px;
+	left: 50px;
+}
+.portafolio {
+	position: relative;
+	left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
