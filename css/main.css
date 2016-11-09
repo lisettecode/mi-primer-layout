@@ -11,11 +11,11 @@
 	position: relative;
 }
 
-header .menu-inicio {
+header .menu-barra {
 	margin-left: 150px;
 }
 
-.menu-inicio {
+.menu-barra {
 	padding-left: 10px;
 	padding-right: 40px;
 	margin: 20px;
@@ -24,6 +24,7 @@ header .menu-inicio {
 	border-left: transparent;
 	border-right: transparent;
 }
+
 .menu {
 	list-style: none;
 	float: left;
@@ -41,49 +42,61 @@ header .menu-inicio {
 	margin-top: 15px;
 }
 
-.menu-enl {
+.menu-letra {
 	text-decoration: none;
 	color: black;
 }
-.menu-enl:hover {
-	color: red;
+
+.menu-letra:hover {
+	color: darkorange;
 }
+
 .portada {
 	display: block;
 	position: relative;
 	left: 150px;
 	margin-top: 120px;
+    margin-bottom: 60px;
 }
-.section {
-	margin-top: 30px;
-	position: relative;
-	left: 10px;
-	margin-bottom: 40px;
+
+.linea1-texto {
+	border: 1.7px solid black;
+	width: 50px;
+	margin-top: 15px;
+    margin-left: 48%;
 }
 
 .info {
-	margin-left: 25%;
+	margin-left: 30%;
 	margin-top: 50px;
 	display: block;
 	text-align: center;
-	width: 500px;
+	width: 400px;
 	font-size: 19px;
 	font-family: cursive;
 }
 
-.arriba {
+.linea2-texto {
+	border: 0.2px solid black;
+	width: 50px;
+	margin-top: 25px;
+    margin-left: 48%;
+}
+
+.box {
 	position: relative;
 	display: inline-block;
 	margin-left: 15px;
 }
+
 .raya {
 	border: 2px solid black;
 	width: 70px;
 	margin-top: 15px;
+    margin-bottom: 25px;
 }
-.caja {
-	margin: 15px;
-}
+
+
 p {
 	position:absolute; 
 	bottom: 10px;
@@ -91,13 +104,16 @@ p {
 	font-size: 10px;
 	color: white;
 }
+
 .coder {
 	opacity: 0.6;
 }
+
 .coder:hover {
 	opacity: 1;
 }
-.nuest-cod {
+
+.nuestras-coders {
 	margin-top: 30px;
 	position: relative;
 	left: 150px;
